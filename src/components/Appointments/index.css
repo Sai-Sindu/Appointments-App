@@ -1,0 +1,102 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.container-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+}
+.title-heading {
+  color: #171f46;
+  font-size: 40px;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
+}
+.label-text {
+  color: #b5b7c4;
+  font-size: 10px;
+}
+.input-card {
+  border: 1px solid #b5b7c4;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.submit-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0;
+  width: 80px;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.appointments-image {
+  height: 250px;
+  width: 250px;
+  margin-left: 30px;
+  width: 40%;
+}
+.separator {
+  border: 1px solid #b5b7c4;
+}
+.appointments-header-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.appointments-title {
+  color: #171f46;
+  font-size: 30px;
+}
+.stared-button {
+  color: #8b5cf6;
+  border: 1px solid #8b5cf6;
+  border-radius: 20px;
+  height: 30px;
+  width: 80px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.appointments-container-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .appointments-container-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
